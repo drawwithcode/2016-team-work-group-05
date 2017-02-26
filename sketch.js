@@ -117,7 +117,7 @@ textSize(30);
 t = interval - int(millis()/1000);
 time = nf(t ,1);
 interval+=10
-text(t,windowWidth-95,55);
+text(t,windowWidth-80,55);
 
 
 // Creo contatore per le vittime
