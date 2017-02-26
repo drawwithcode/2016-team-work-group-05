@@ -1,7 +1,7 @@
 var pointillismAreaHeight = window.innerHeight/2.81,  //a schermo interno è il punto dove tocca l'orizzonte
     points = [],
     xPosCorrectionScale = 1,
-    pointSizeRange = [5, 10];
+    pointSizeRange = [10, 20];
 
 var t;
 var moon;
@@ -22,6 +22,7 @@ dresda7 = loadImage("assets/citta7.png");
 moon = loadImage("assets/moon.png");
 bomba = loadImage("assets/bombetta.png");
 clock = loadImage("assets/orologio.png");
+vittime = loadImage("assets/vittime.png");
 }
 
 function setup() {
@@ -109,22 +110,30 @@ var interval = 120;
 var millisecond = millis()
 var t = interval-int(millis()/1000);
 
-image(clock, windowWidth-105,45, 45, 45);
+image(clock, windowWidth-115,45, 45, 45);
 noStroke();
 fill('#A51800');
 textSize(30);
 t = interval - int(millis()/1000);
 time = nf(t ,1);
 interval+=10
-text(t,windowWidth-85,55);
+text(t,windowWidth-95,55);
 
-// Creo contatore per le bombe
-    
-image(bomba, windowWidth-100,90, 45, 45);
+
+// Creo contatore per le vittime
+image(vittime, windowWidth-115,135, 45, 45);
 noStroke();
 fill('#A51800');
 textSize(30);
-text(bombs.length,windowWidth-70, 105);
+text(bombs.length*15,windowWidth-80, 145)    
+    
+// Creo contatore per le bombe
+    
+image(bomba, windowWidth-110,90, 45, 45);
+noStroke();
+fill('#A51800');
+textSize(30);
+text(bombs.length,windowWidth-80, 105);
 
 //imposto schermata finale
  if(t === 0){
@@ -132,9 +141,10 @@ text(bombs.length,windowWidth-70, 105);
     fill(0, 0, 0);
     rect(0, 0, windowWidth, windowHeight);
     textSize(60);
+     textFont("Courier");
     fill(250);
     textAlign(CENTER);
-    text("Remembering Dresden.", width/2, height/2);
+    text("War settles nothing.\n\nRemembering Dresden.", width/2, height/3+60);
     t(0 ,1); 
     }
 
