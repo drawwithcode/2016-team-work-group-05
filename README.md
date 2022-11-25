@@ -1,8 +1,8 @@
-## **_Under the sky of Dresden_**
+## Under the sky of Dresden
 
-####Remembering Dresden
-####*Progetto a cura di Chiara Forzoni e Alice Paganini*
-######English below
+#### Remembering Dresden
+#### *Progetto a cura di Chiara Forzoni e Alice Paganini*
+###### English below
 
 Il progetto è nato dall'idea di rendere visibili  concetti **fuori scala** e poco tangibili come **quantità e tempo**.
 Spesso si usa "tonnellate di..., migliaia di anni" ma non si ha mai ben chiaro in mente il peso e la quantità di questi grandi numeri.
@@ -23,16 +23,18 @@ Allo scadere del tempo, simbolicamente quando la notte finisce, tutto diventa ne
 
 > L'intero codice è stato scritto per mano nostra ad esclusione dell'inserimento di una stringa (ripresa dal libro 'Javascript. Passo per passo' di Steve Suehring) dentro il file index.html della pagina iniziale per creare un bottone:
 
-######script src="sketch.js" type="text/javascript"></script> <input type="button" onclick="location.href='website';"value="sample" style="font-size: 12px; border: 1pt ridge black"_
+```html
+script src="sketch.js" type="text/javascript"></script> <input type="button" onclick="location.href='website';"value="sample" style="font-size: 12px; border: 1pt ridge black"
+```
 
 > Vorremmo inoltre ringraziare i professori che ci hanno gentilmente e pazientemente seguito durante il semestre, siamo molto soddisfatte dei nostri piccoli-grandi passi nel mondo della programmazione 🙂
 
-#####**_Chiara e Alice_**
+##### **_Chiara e Alice_**
 
 
-####Under the sky of Dresden
-####Remembering Dresden
-####*Project made by Chiara Forzoni and Alice Paganini*
+#### Under the sky of Dresden
+#### Remembering Dresden
+#### *Project made by Chiara Forzoni and Alice Paganini*
 
 The idea for the project came from the attempt of making visible those concepts which were **out of scale** and not tangible in terms of both **quantity and time**. We are often used to say “tons of… thousands of…”, but we never have in mind the exact amount and weight of those huge numbers.
 
@@ -47,9 +49,11 @@ In a symbolic way, the night finishes when the deadline comes. All becomes black
 > Since we are neophyte in programming, we occurred into not few difficulties while developing this project. We took benefit from background literature and books to solve some problems, such as: leaving a trail in the skyline which matches with the collapsing bomb, setting a countdown for the action, creating the starting page (which has been made by inserting in the index a redirecting link towards another webpage), then successfully merging the overall codes parts. 
 The code was entirely made by us, with the exception of a line inside index.html file, which has been taken from Steve Suerhing’s “Javascript, step by step”. The line was used to create a button:
 
-######script src="sketch.js" type="text/javascript"></script>
+```
+script src="sketch.js" type="text/javascript"></script>
 <input type="button" onclick="location.href='website';" value="sample" style="font-size: 12px; border: 1pt ridge black" /
+```
 
 > Lastly, we would like to thank the professors which have kindly and patiently trained us during the entire semester. We are very proud of our small-big steps in this programming world. 
 
-#####**_Chiara e Alice_**
+##### **_Chiara e Alice_**
